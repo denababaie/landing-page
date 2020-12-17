@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset=UTF-8 />
+    <link rel="stylesheet" type="text/css" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Gravitas+One&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    
+    <div class="text-box">
+        <div class="content">
+          <span id="day"></span>
+          <span id="time"></span>
+      </div>
+        </div>
+    </div> 
+
+
+    </div>
+
+ <!------------------------------------------------------------MENU-SOCIALS--------------------------------------------------------------->
+
+
+
+
+ <!------------------------------------------------------------MUSIC-PLAYER--------------------------------------------------------------->
+
+    
+    <div class="container">
+      <div class="wrapper">
+          <h1> frank ocean - ivy</h1>
+         <img src="https://i.pinimg.com/originals/b4/75/00/b4750046d94fed05d00dd849aa5f0ab7.jpg">
+
+          <input id="range" class="level" type="range" value="0" min="0">
+          <div class="buttons">
+              <button id="pre"><img src="assets/rewind.png"></button>
+              <button id="play"><img id="play_img" src="assets/play.png"></button>
+              <button id="next"><img src="assets/fast-forward.png"></button>
+          </div>
+
+          
+      </div>
+     
+  </div>
+  <!------------------------------------------------------------NOTEPAD---------------------------------------------------------------->
+
+
+  <div class="notepad">
+    <div class="top"></div>
+    <div class="paper" contenteditable="true">
+      write down your thoughts<br>
+    </div>
+  </div>
+
+  <script src="musicplayer.js"></script>
+  <script src="datetime.js"></script>
+
+
+  <!------------------------------------------------------------PINTEREST---------------------------------------------------------------->
+
+
+  <!--<div class = pinterest>
+  <a data-pin-do="embedUser" data-pin-lang="fr" data-pin-board-width="400" data-pin-scale-height="240" data-pin-scale-width="80" href="https://www.pinterest.com/denab_/"></a>
+</div> -->
+
+<div class = pinterest>
+<a data-pin-do="embedUser" data-pin-lang="fr" data-pin-board-width="150" data-pin-scale-height="990" data-pin-scale-width="240" href="https://www.pinterest.com/denab_"></a>
+</div> 
+
+  <!------------------------------------------------------------SOCIAL-MEDIA---------------------------------------------------------------->
+
+<!--<p class = "socialtitle">SOCIALS</p> -->
+<div class="socialmedia">
+  <p id="behance"><img class= "behanceimg" src="assets/77-behance-512 (1).webp"></p>
+  <p id="codepen"><img class= "codepenimg"src="assets/social-32-512.webp"></p>
+  <p id="discord"><img class= "discordimg"src="assets/disco.png"></p>
+  <p id="github"><img class= "githubimg"src="assets/github_PNG40.png"></p>
+
+</div>
+
+  <!-----------------------------------------------------------------TO-DO-LIST--------------------------------------------------------->
+
+  <section class="todocontainer">
+    <div class="heading">
+      <h1 class="heading__title">To-Do List</h1>
+    </div>
+    <form class="form">
+      <div>
+        <input class="form__input"
+             type="text" 
+             id="todo" 
+             name="to-do"
+             size="30"
+             required>
+        <button class="buttontodo"><span>Submit</span></button>
+      </div>
+    </form>
+    <div>
+      <ul class="toDoList">
+      </ul>
+    </div>
+  </section>
+
+
+    <!-----------------------------------------------------------------TEXT-ON-THE-LEFT--------------------------------------------------------->
+
+    <!--<div class = "upsidedown">
+    <p class="leftsidetext">messy landing page</p>
+  </div> -->
+
+  <script src="todo.js"></script>
+
+
+
+
+  <script async defer src="//assets.pinterest.com/js/pinit.js"></script>
+  </body>
+</html>
